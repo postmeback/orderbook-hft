@@ -45,6 +45,7 @@ orderbook-hft/
 │   └── models/
 │       ├── order.rs     # Order struct
 │       └── order_book.rs# OrderBook struct and matching logic
+|       ├── trade.rs #after successfull trade
 ├── tests/
 │   └── order_book_test.rs # Integration tests
 ├── Cargo.toml
