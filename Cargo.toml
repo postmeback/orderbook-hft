@@ -1,0 +1,15 @@
+[package]
+name = "orderbook-hft"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ordered-float = "4.2.0"
+
+[lib]
+path = "src/lib.rs"  # This ensures your code is treated as a library
+
+[[test]]
+name = "order_book_test"
+path = "tests/order_book_test.rs"  # Ensure the test file is correctly linked
+
